@@ -46,19 +46,19 @@ body {
 }
 
 .sign-in-container {
-  margin-top: -50px;
+  margin-top: -20px;
   padding-right: 80px;
 }
 
 .sign-in-container input {
-  margin-top: 20px;
+  margin-top: 15px;
   line-height: 1.25rem;
 }
 
 .sign-in-container button {
   align-self: center;
-  margin-top: 20px;
-  width: 60px;
+  margin-top: 10px;
+  width: 65px;
   height: 30px;
   border-radius: 5px;
   outline: none;
