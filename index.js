@@ -34,8 +34,10 @@ function checkAccount() {
           $result = true;
         } 
       });
-      if ($result) window.location.href="https://www.hackerstart.cn/";
-      else {
+      if ($result) {
+        // window.location.href="https://www.hackerstart.cn/";
+        alert('登录成功')
+      } else {
         alert('账户不存在，请注册')
         window.location.href="./sign-up.html"
       };
@@ -51,10 +53,10 @@ function checkAccount() {
 //   }
 // }
 
-function goToSignUp() {
-  const loginBtn = document.querySelector('#login-btn');
-  let signUp = document.createElement('a');
-  signUp.setAttribute('href', './sign-up.html');
-  signUp.textContent = 'Log in';
-}
+// function goToSignUp() {
+//   const loginBtn = document.querySelector('#login-btn');
+//   let signUp = document.createElement('a');
+//   signUp.setAttribute('href', './sign-up.html');
+//   signUp.textContent = 'Log in';
+// }
 
