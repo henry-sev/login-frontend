@@ -12,6 +12,7 @@ body {
   background-color: rgb(110, 107, 107);
   justify-content: center;
   align-items: center;
+  color: #ddd;
 }
 
 .flex {
@@ -31,31 +32,31 @@ body {
   border-radius: 10px;
 }
 
-.create-account-container {
+.left {
   padding-left: 40px;
   margin-right: auto;
   align-items: center;
 }
 
-.create-account-container img {
+.left img {
   border-radius: 8px;
 }
-.create-account-container a {
+.left a {
   padding-top: 10px;
   color: #ddd;
 }
 
-.sign-in-container {
+.right {
   margin-top: -20px;
   padding-right: 80px;
 }
 
-.sign-in-container input {
+.right input {
   margin-top: 15px;
   line-height: 1.25rem;
 }
 
-.sign-in-container button {
+.right button {
   align-self: center;
   margin-top: 10px;
   width: 65px;

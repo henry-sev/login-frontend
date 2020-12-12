@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./sign-up.css" />
+    <title>Sign in</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./sign-up.css">
-  <title>Sign in</title>
-</head>
-
-<body class="flex">
-  <main class="container flex">
-    <section class="create-account-container flex column">
-      <img src="./imgs/sign-up.jpg" alt="" height=280 width=224>
-      <a href="./index.html">I am already member</a>
-    </section>
-    <section class="sign-in-container flex column">
-      <h1>Sign up</h1>
-      <input type="text" placeholder="Your Name">
-      <input type="email" placeholder="Your Email">
-      <input type="password" placeholder="Password">
-      <input type="password" placeholder="Repeat your password">
-      <input type="checkbox">
-      <button>Register</button>
-    </section>
-  </main>
-</body>
-
+  <body class="flex">
+    <main class="container flex">
+      <section class="left flex column">
+        <img src="./imgs/sign-up.jpg" alt="" height="280" width="224" />
+        <a href="./index.html">I am already member</a>
+      </section>
+      <section class="right flex column">
+        <h1>Sign up</h1>
+        <input type="text" placeholder="Your Name" />
+        <input type="email" placeholder="Your Email" />
+        <input type="password" placeholder="Password" />
+        <input type="password" placeholder="Repeat your password" />
+        <div>
+          <input type="checkbox" id="check-box" />
+          <label for="check-box">I agree all statements</label>
+        </div>
+        <button>Register</button>
+      </section>
+    </main>
+  </body>
 </html>
