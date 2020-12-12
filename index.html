@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./index.css" />
-    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
     <title>Sign in</title>
   </head>
   <body class="flex">
@@ -16,13 +16,23 @@
       </section>
       <section class="right flex column">
         <h1>Sign in</h1>
-        <input id="user-name" type="text" placeholder="John Doe" />
-        <input id="user-password" type="password" placeholder="Password" />
+        <input
+          id="user-name"
+          class="is-empty"
+          type="text"
+          placeholder="John Doe"
+        />
+        <input
+          id="user-password"
+          class="is-empty"
+          type="password"
+          placeholder="Password"
+        />
         <div>
           <input type="checkbox" id="remember-me" />
           <label for="remember-me">Remember me</label>
         </div>
-        <button id="login-btn" onclick="checkAccount()">Log in</button>
+        <button id="login-btn" onclick="signIn()">Log in</button>
       </section>
     </main>
   </body>

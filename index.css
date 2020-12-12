@@ -69,3 +69,7 @@ body {
   outline: none;
   background-color: tomato;
 }
+
+.red-border {
+  border: 1px solid red;
+}
